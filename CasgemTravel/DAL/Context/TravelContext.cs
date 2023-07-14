@@ -1,11 +1,11 @@
-﻿using CasgemTravel.Models.Entities;
+﻿using CasgemTravel.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace CasgemTravel.Models.Context
+namespace CasgemTravel.DAL.Context
 {
     public class TravelContext : DbContext
     {

@@ -1,4 +1,4 @@
-﻿namespace CasgemTravel.Models.Entities
+﻿namespace CasgemTravel.DAL.Entities
 {
     public class Destination
     {

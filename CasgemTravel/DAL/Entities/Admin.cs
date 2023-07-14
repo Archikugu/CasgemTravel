@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Web;
 
-namespace CasgemTravel.Models.Entities
+namespace CasgemTravel.DAL.Entities
 {
     public class Admin
     {

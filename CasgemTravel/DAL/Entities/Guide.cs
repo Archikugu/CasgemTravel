@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CasgemTravel.Models.Entities
+namespace CasgemTravel.DAL.Entities
 {
     public class Guide
     {
