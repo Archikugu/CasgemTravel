@@ -127,6 +127,8 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AdminGuideController.cs" />
+    <Compile Include="Controllers\BookingController.cs" />
+    <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\ErrorPageController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -407,6 +409,11 @@
     <Content Include="Views\Admin\AdminList.cshtml" />
     <Content Include="Views\Admin\AddAdmin.cshtml" />
     <Content Include="Views\Admin\UpdateAdmin.cshtml" />
+    <Content Include="Views\Booking\Index.cshtml" />
+    <Content Include="Views\Booking\UpdateBooking.cshtml" />
+    <Content Include="Views\City\Index.cshtml" />
+    <Content Include="Views\City\AddCity.cshtml" />
+    <Content Include="Views\City\UpdateCity.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
