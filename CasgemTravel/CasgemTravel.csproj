@@ -124,6 +124,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AdminGuideController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
@@ -132,6 +133,8 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SocialMediaController.cs" />
     <Compile Include="DAL\Entities\Admin.cs" />
+    <Compile Include="DAL\Entities\City.cs" />
+    <Compile Include="DAL\Entities\Travel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -144,6 +147,10 @@
     <Compile Include="Migrations\202307141638127_mig_create_db.cs" />
     <Compile Include="Migrations\202307141638127_mig_create_db.designer.cs">
       <DependentUpon>202307141638127_mig_create_db.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307231752512_mig_add_city_travel_table.cs" />
+    <Compile Include="Migrations\202307231752512_mig_add_city_travel_table.designer.cs">
+      <DependentUpon>202307231752512_mig_add_city_travel_table.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -386,6 +393,20 @@
     <Content Include="Views\AdminGuide\Index.cshtml" />
     <Content Include="Views\AdminGuide\AddGuide.cshtml" />
     <Content Include="Views\AdminGuide\UpdateGuide.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\About\PartialHeader.cshtml" />
+    <Content Include="Views\About\PartialNavbar.cshtml" />
+    <Content Include="Views\About\PartialScript.cshtml" />
+    <Content Include="Views\About\PartialAbout.cshtml" />
+    <Content Include="Views\About\PartialSection1.cshtml" />
+    <Content Include="Views\About\PartialSection2.cshtml" />
+    <Content Include="Views\About\PartialSection3.cshtml" />
+    <Content Include="Views\About\PartialEmployees.cshtml" />
+    <Content Include="Views\About\PartialFooter.cshtml" />
+    <Content Include="Views\About\PartialScript2.cshtml" />
+    <Content Include="Views\Admin\AdminList.cshtml" />
+    <Content Include="Views\Admin\AddAdmin.cshtml" />
+    <Content Include="Views\Admin\UpdateAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -421,6 +442,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202307141638127_mig_create_db.resx">
       <DependentUpon>202307141638127_mig_create_db.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307231752512_mig_add_city_travel_table.resx">
+      <DependentUpon>202307231752512_mig_add_city_travel_table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
