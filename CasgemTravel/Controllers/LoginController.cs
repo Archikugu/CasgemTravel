@@ -31,7 +31,7 @@ namespace CasgemTravel.Controllers
             }
             else
             {
-                return View();
+                return RedirectToAction("Index", "Login");
             }
         }
     }
