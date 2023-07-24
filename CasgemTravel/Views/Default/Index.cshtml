@@ -1,33 +1,35 @@
-﻿﻿
+﻿
 @{
     Layout = null;
 }
-<!--
-   Author: W3layouts
-   Author URL: http://w3layouts.com
--->
+
+
 <!doctype html>
 <html lang="en">
-@Html.Action("PartialHead")
+
+@Html.Partial("PartialHead")
+
 <body id="home">
-    @Html.Action("PartialNavbar")
+    @Html.Partial("PartialNavbar")
 
-    @Html.Action("PartialSliderScript")
+    @Html.Partial("PartialScript")
 
-    @Html.Action("PartialSlider")
+    @Html.Partial("PartialSlider")
 
     @Html.Action("PartialBooking")
 
-    @Html.Action("PartialFeature")
+    @Html.Partial("PartialImages")
 
-    @Html.Action("PartialDestinations")
+    @Html.Action("PartialDestination")
 
-    @Html.Action("PartialAbout")
+    @Html.Partial("PartialExplore")
 
-    @Html.Action("PartialBookingCover")
+    @Html.Partial("PartialBookingImage")
 
-    @Html.Action("PartialFooter")
+    @Html.Partial("PartialFooter")
 
-    @Html.Action("PartialMainScript")
+    @Html.Partial("PartialScript2")
+
 </body>
+
 </html>
